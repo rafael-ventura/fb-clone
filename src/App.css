@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+.header {
+  background-color: white;
+  padding: 10px 0;
+  display: flex;
+}
+.headerLeft {
+  width: 30%;
+  flex-direction: row;
+  display: flex;
+}
+
+.logo-fb svg {
+  color: #4287f5;
+  font-size: 40px;
+  margin: 0 10px;
+}
