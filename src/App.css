@@ -31,6 +31,7 @@ body {
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
+  margin: 0 10px;
 }
 
 .search-fb svg {
@@ -69,4 +70,32 @@ body {
   line-height: 34px;
   font-size: 28px;
   cursor: pointer;
+}
+
+.home-fb {
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 70%;
+}
+
+.home-fb svg {
+  color: gray;
+  font-size: 36px;
+}
+
+.flag-fb {
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 10px;
+}
+
+.flag-fb {
+  color: gray;
+  font-size: 36px;
 }
