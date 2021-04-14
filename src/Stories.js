@@ -1,5 +1,5 @@
 import img01 from "./resources/img01.jpg";
-import img02 from "./resources/img02.jpg";
+import img02 from "./resources/img06.jpg";
 import img03 from "./resources/img03.jpg";
 import img04 from "./resources/img04.jpg";
 import img05 from "./resources/img05.jpg";

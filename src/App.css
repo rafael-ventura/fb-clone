@@ -146,3 +146,29 @@ body {
   font-size: 14px;
   padding: 10px;
 }
+
+.publishField {
+  background-color: white;
+}
+
+.publishForm img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.publishForm input {
+  margin-left: 2%;
+  width: calc(98% - 40px);
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  border: 0;
+}
+
+.publishForm input:focus {
+  outline: 0;
+}
