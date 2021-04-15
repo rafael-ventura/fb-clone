@@ -149,6 +149,15 @@ body {
 
 .publishField {
   background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1%;
+  margin-left: 0.5%;
+  margin-top: 1%;
+}
+.publishForm {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 .publishForm img {
@@ -159,10 +168,12 @@ body {
 }
 
 .publishForm input {
+  position: relative;
+  top: -10px;
   margin-left: 2%;
   width: calc(98% - 40px);
-  height: 40px;
-  background-color: #ccc;
+  height: 50px;
+  background-color: rgb(240, 240, 240);
   border-radius: 20px;
   padding-left: 20px;
   font-size: 15px;
@@ -171,4 +182,32 @@ body {
 
 .publishForm input:focus {
   outline: 0;
+}
+
+.publishButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.video svg {
+  color: #f02849;
+  font-size: 28px;
+  position: relative;
+  top: 9px;
+}
+
+.photo svg {
+  color: #45bd62;
+  font-size: 28px;
+  position: relative;
+  top: 9px;
+}
+.feelings svg {
+  color: #f7b928;
+  font-size: 28px;
+  position: relative;
+  top: 9px;
 }
