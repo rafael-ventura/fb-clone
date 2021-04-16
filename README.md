@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Criando um clone do Facebook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A intencao desse projeto é a criacao de uma das principais páginas do Facebook, tendo como foco a estilizacao com CSS e a componentizacao dos elementos com React, além do uso de alguns hooks.
 
 ## Available Scripts
 
