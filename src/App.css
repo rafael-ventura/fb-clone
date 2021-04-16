@@ -1,80 +1,101 @@
+/* || GENERAL STYLES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #ccc;
 }
+.page {
+  margin: 0 5%;
+}
+
+/* || HEADER STYLES */
 .header {
   background-color: white;
   padding: 10px 0;
   display: flex;
 }
-.headerLeft {
-  width: 50%;
+
+/* || LEFT HEADER  */
+.leftHeader {
+  width: 40%;
   flex-direction: row;
   display: flex;
 }
 
+/* || LEFT HEADER - ICON STYLES */
 .logo-fb svg {
   color: #4287f5;
   font-size: 40px;
   margin: 0 10px;
 }
-
 .search-fb {
   background-color: rgb(230, 230, 230);
   width: 40px;
   height: 40px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
 }
-
 .search-fb svg {
   color: gray;
-  font-size: 15px;
+  font-size: 25px;
 }
 
+/* 
+.menu-fb {
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+}
+
+.menu-fb:hover {
+  background-color: rgb(200, 200, 200);
+}
+.menu-fb svg {
+  color: gray;
+  font-size: 28px;
+}  */
+
+/* || MIDDLE HEADER  */
+.middleHeader {
+  width: 33%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* || MIDDLE  HEADER - ICON STYLES */
 .home-fb {
   width: 40px;
   height: 40px;
   border-radius: 20px;
   text-align: center;
-  line-height: 40px;
-  margin-left: 10px;
+  line-height: 50px;
 }
-
 .home-fb svg {
   color: gray;
   font-size: 36px;
 }
-
 .flag-fb {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
-  margin-left: 10px;
+  line-height: 50px;
 }
-
 .flag-fb svg {
   color: gray;
   font-size: 36px;
 }
-
 .live-fb {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
-  margin-left: 10px;
+  line-height: 50px;
 }
-
 .live-fb svg {
   color: gray;
   font-size: 36px;
@@ -84,36 +105,35 @@ body {
   height: 40px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
-  margin-left: 10px;
+  line-height: 50px;
 }
-
 .shop-fb svg {
   color: gray;
   font-size: 36px;
 }
-
-.menu-fb {
-  cursor: pointer;
+.groups-fb {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 46px;
+  border: 2px solid gray;
   position: relative;
-  padding: 5px 10px;
-  margin-left: 10px;
+  top: 4%;
 }
-
-.menu-fb:hover {
-  background-color: rgb(200, 200, 200);
-}
-.menu-fb svg {
+.groups-fb svg {
+  font-size: 26px;
   color: gray;
-  font-size: 28px;
 }
 
-.headerRight {
-  width: 50%;
+/* || RIGHT HEADER */
+.rightHeader {
+  width: 32%;
   text-align: right;
   margin: 0 20px;
 }
 
+/* || RIGHT HEADER - ICON STYLES */
 .plus-btn {
   width: 40px;
   height: 40px;
@@ -121,16 +141,18 @@ body {
   border-radius: 20px;
   background: rgb(230, 230, 230);
   text-align: center;
-  line-height: 34px;
+  line-height: 40px;
   font-size: 28px;
   cursor: pointer;
 }
 
+/* || STORIES */
 .stories {
   display: flex;
   margin: 10px 0;
 }
 
+/* || STORIES CARDS */
 .storiesCard {
   width: 19%;
   margin-right: 1%;
@@ -140,13 +162,13 @@ body {
   background-size: cover;
   border-radius: 10px;
 }
-
 .storiesCard p {
   color: white;
   font-size: 14px;
   padding: 10px;
 }
 
+/* || PUBLISH  */
 .publishField {
   background-color: white;
   padding: 10px;
@@ -155,18 +177,18 @@ body {
   margin-left: 0.5%;
   margin-top: 1%;
 }
+
+/* || PUBLISH FORMS */
 .publishForm {
   padding: 10px;
   border-bottom: 1px solid #ccc;
 }
-
 .publishForm img {
   display: inline-block;
   width: 40px;
   height: 40px;
   border-radius: 20px;
 }
-
 .publishForm input {
   position: relative;
   top: -10px;
@@ -179,11 +201,11 @@ body {
   font-size: 15px;
   border: 0;
 }
-
 .publishForm input:focus {
   outline: 0;
 }
 
+/* || PUBLISH BUTTON*/
 .publishButtons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -192,13 +214,13 @@ body {
   text-align: center;
 }
 
+/* || PUBLISH - ICON STYLES*/
 .video svg {
   color: #f02849;
   font-size: 28px;
   position: relative;
   top: 9px;
 }
-
 .photo svg {
   color: #45bd62;
   font-size: 28px;
